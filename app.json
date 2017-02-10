@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detailed/detailed",
+    "pages/science/science",
+    "pages/produck/produck"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "农业资讯",
+        "iconPath": "img/zx.png",
+        "selectedIconPath": "img/zx1.png"
+      },
+      {
+        "pagePath": "pages/science/science",
+        "text": "农业科技",
+        "iconPath": "img/kj.png",
+        "selectedIconPath": "img/kj1.png"
+      },
+      {
+        "pagePath": "pages/produck/produck",
+        "text": "农业产品",
+        "iconPath": "img/cp.png",
+        "selectedIconPath": "img/cp1.png"
+      }
+    ],
+    "selectedColor": "#98FB98",
+    "borderStyle": "white",
+    "position": "bottom"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#98FB98",
+    "navigationBarTitleText": "云洋数据农业资讯",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": "false"
+  }
+}

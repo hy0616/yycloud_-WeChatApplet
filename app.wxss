@@ -1,0 +1,37 @@
+/**app.wxss**/
+@import "/wxParse/wxParse.wxss";
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 
+
+.messageTitle {
+ width: 100%;
+ height: 300rpx;
+ overflow: hidden;
+ border-bottom: 1rpx solid #dcdcdc
+}
+
+.messageTitle image {
+  width:40%;
+  height:260rpx;
+  float: left;
+  padding: 20rpx 0;
+}
+
+.messageTitle text{
+  width: 58%;
+  float: left;
+  display: block;
+  padding: 28rpx 1%;
+}
+/****/
+.slideImage{
+  width: 100%;
+  height: 100%;
+}
